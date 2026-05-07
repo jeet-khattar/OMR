@@ -1,0 +1,276 @@
+:root {
+  --font-family-primary: Arial, Helvetica, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.sec1 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tagline {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+  font-family: var(--font-family-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.tagline h1 {
+  color: white;
+  font-family: var(--font-family-primary);
+  font-size: 5rem;
+  text-align: center;
+}
+.tagline p {
+  color: gray;
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-weight: 100;
+  width: 50%;
+  margin-left: 25%;
+}
+.input {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 10px;
+  
+}
+.input input {
+  width: 30%;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid gray;
+  color: white;
+}
+.input button {
+  height: 40px;
+  width: 150px;
+  font-size: 1.2rem;
+  font-family: var(--font-family-primary);
+  border: none;
+}
+.input button:hover {
+  background-color: #d9d9d9;
+}
+
+.sec2 {
+  height: 50%;
+  width: 100%;
+}
+hr {
+  border: 0.1px solid gray;
+  width: 90%;
+  margin-left: 5%;
+}
+.footerlinks {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-family: var(--font-family-primary);
+}
+.link1,
+.link2,
+.link3,
+.link4 {
+  height: 100%;
+  width: auto;
+  padding: 20px;
+}
+.link1 h3,
+.link2 h3,
+.link3 h3,
+.link4 h3 {
+  color: gray;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+.link1 p,
+.link2 p,
+.link3 p,
+.link4 p {
+  color: rgb(192, 192, 192);
+  font-weight: 100;
+  margin-top: 8px;
+  
+}
+
+.latline {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 118px;
+  font-family: var(--font-family-primary);
+}
+.latline p {
+  font-size: 1rem;
+}
+.latline .btndiv {
+  display: flex;
+  gap: 20px;
+}
+.latline .btndiv button {
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+}
+.latline .btndiv button:hover {
+  background-color: #d9d9d9;
+}
+@media (max-width: 600px) {
+  .sec1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px;
+  }
+  .tagline {
+    background-color: rgb(0, 0, 0);
+    height: 50%;
+    width: 100%;
+    font-family: var(--font-family-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .tagline h1 {
+    color: white;
+    font-family: var(--font-family-primary);
+    font-size: 2rem;
+    text-align: center;
+  }
+  .tagline p {
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--font-family-primary);
+    font-weight: 100;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .input {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 10px;
+  }
+  .input input {
+    width: 30%;
+    height: 30px;
+    padding: 10px 5px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid gray;
+  }
+  .input button {
+    height: 30px;
+    width: 100px;
+    font-size: 1.2rem;
+    font-family: var(--font-family-primary);
+    border: none;
+  }
+
+  /* Section 2 */
+
+  .sec2 {
+    height: 50%;
+    width: 100%;
+  }
+  hr {
+    border: 0.1px solid gray;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .footerlinks {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-family: var(--font-family-primary);
+  }
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    height: 100%;
+    width: auto;
+    padding: 20px;
+  }
+  .link1 h3,
+  .link2 h3,
+  .link3 h3,
+  .link4 h3 {
+    color: gray;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+  .link1 p,
+  .link2 p,
+  .link3 p,
+  .link4 p {
+    color: rgb(192, 192, 192);
+    font-weight: 100;
+    margin-top: 8px;
+    font-size: .9rem;
+  }
+
+  .latline {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-family: var(--font-family-primary);
+  }
+  .latline p {
+    font-size: .6rem;
+    width: 100px;
+  }
+  .latline .btndiv {
+    display: flex;
+    gap: 20px;
+  }
+  .latline .btndiv button {
+    padding: 5px 10px;
+    background-color: white;
+  }
+}

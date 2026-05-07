@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.details {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.details .card {
+  height: 100%;
+  width: 25%;
+  gap: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+.details .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -99999;
+}
+.details .card h1 {
+  z-index: 9;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 85%;
+  font-size: 1.5rem;
+}
+.details .card .text-area {
+  position: absolute;
+  background-color: black;
+  height: 30%;
+  width: 100%;
+  z-index: 999;
+  outline: 1px solid white;
+  top: 100%;
+  transition: 0.2s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.details .card:hover .text-area {
+  top: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.details .card .text-area p {
+  color: white;
+}
+.details .card .text-area button {
+  width: 100%;
+  border: none;
+}
+.details .card .text-area button:hover {
+  background-color: gainsboro;
+}
+@media (max-width: 600px) {
+  .details {
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .details .card {
+    height: 100%;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .details {
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .details .card {
+    height: 100%;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .details {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .details .card {
+    height: 50%;
+    width: 50%;
+
+    gap: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+}

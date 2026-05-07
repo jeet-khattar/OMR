@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cursor {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99999;
+  box-shadow:
+    0 0 15px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(0, 0, 0, 0.2);
+    
+}

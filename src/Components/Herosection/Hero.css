@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.herosec {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.herosec img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -999;
+  position: absolute;
+}
+.herotext {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  text-align: center;
+  z-index: 9;
+}
+.herotext h1 {
+  font-size: 8.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+.herobtn {
+  position: absolute;
+  z-index: 9;
+  top: 90%;
+  left: 3%;
+}
+.herobtn button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Mobile Responsive CSS */
+
+@media (max-width: 640px) {
+  .herosec {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+  }
+  .herotext {
+    top: 50%;
+    width: 100%;
+    left: 0;
+  }
+  .herotext h1 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .herobtn button {
+    border: none;
+    color: rgb(177, 9, 9);
+    background-color: transparent;
+    padding: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .herosec {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+  }
+  .herotext {
+    top: 50%;
+    width: 100%;
+    left: 0;
+  }
+  .herotext h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .herobtn button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 2vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .herosec {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+  }
+  .herotext {
+    top: 50%;
+    width: 100%;
+    left: 0;
+  }
+  .herotext h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .herobtn button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 2vw;
+  }
+}
