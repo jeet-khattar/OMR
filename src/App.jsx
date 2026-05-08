@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
       {/* <div className="cursor" ref={cursorr}></div> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/OMR/">
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
