@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Product1page from "./Productpages/Product1/Product1page";
 import Homepage from "./Homepage";
 import Product2page from "./Productpages/Product2/Product2page";
