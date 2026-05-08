@@ -1,16 +1,36 @@
-# React + Vite
+OMR Beauty — E-Commerce Web App
+Live Demo: jeet-khattar.github.io/OMR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimal e-commerce storefront for a fictional fragrance brand — OMR Beauty — built as a frontend development practice project.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+TechnologyPurposeReact JSUI building & component architectureClerkAuthentication (Sign in / Sign up with Google, Apple, Email)MockAPICustom REST API for product dataCSS / Responsive DesignMobile-first, fully responsive layout
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🏠 Homepage with hero banner, product collection grid, and category sections
+🛍️ Product Listing Pages — Perfume Oil, Scented Candle, Collection, Accessories
+🔐 Authentication via Clerk — supports Google, Apple, and email login
+📦 Dynamic Product Data fetched from a self-built MockAPI endpoint
+📱 Fully Responsive — works across desktop, tablet, and mobile
+🎨 Clean, luxury aesthetic inspired by Scandinavian design
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚧 Status
+
+In Progress — Core pages and product flow are functional. Features like cart, checkout, and order management are actively being developed.
+
+
+🎯 Purpose
+This project was built to practice and demonstrate:
+
+Real-world React component structuring
+Third-party auth integration (Clerk)
+Consuming REST APIs in a React app
+Responsive UI design for e-commerce layouts
+
+📁 Project Structure (coming soon)
+
+🙋 Author
+Jeet Khattar — Computer Engeneering student | Frontend Developer in progress
